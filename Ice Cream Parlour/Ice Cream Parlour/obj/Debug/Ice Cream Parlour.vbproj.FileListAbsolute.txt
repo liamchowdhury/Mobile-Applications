@@ -1,0 +1,35 @@
+C:\Users\Liam\AppData\Local\Temporary Projects\Ice Cream Parlour\Bin\Debug\ApplicationIcon.png
+C:\Users\Liam\AppData\Local\Temporary Projects\Ice Cream Parlour\Bin\Debug\Background.png
+C:\Users\Liam\AppData\Local\Temporary Projects\Ice Cream Parlour\Bin\Debug\Ice Cream Parlour.dll
+C:\Users\Liam\AppData\Local\Temporary Projects\Ice Cream Parlour\Bin\Debug\Ice Cream Parlour.pdb
+C:\Users\Liam\AppData\Local\Temporary Projects\Ice Cream Parlour\Bin\Debug\Ice Cream Parlour.xml
+C:\Users\Liam\AppData\Local\Temporary Projects\Ice Cream Parlour\Bin\Debug\AppManifest.xaml
+C:\Users\Liam\AppData\Local\Temporary Projects\Ice Cream Parlour\Bin\Debug\Ice_Cream_Parlour.xap
+C:\Users\Liam\AppData\Local\Temporary Projects\Ice Cream Parlour\obj\Debug\App.g.i.vb
+C:\Users\Liam\AppData\Local\Temporary Projects\Ice Cream Parlour\obj\Debug\MainPage.g.i.vb
+C:\Users\Liam\AppData\Local\Temporary Projects\Ice Cream Parlour\obj\Debug\Ice Cream Parlour.g.resources
+C:\Users\Liam\AppData\Local\Temporary Projects\Ice Cream Parlour\obj\Debug\Ice Cream Parlour.dll
+C:\Users\Liam\AppData\Local\Temporary Projects\Ice Cream Parlour\obj\Debug\Ice Cream Parlour.xml
+C:\Users\Liam\AppData\Local\Temporary Projects\Ice Cream Parlour\obj\Debug\Ice Cream Parlour.pdb
+C:\Users\Liam\AppData\Local\Temporary Projects\Ice Cream Parlour\obj\Debug\XapCacheFile.xml
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\Ice Cream Parlour\Ice Cream Parlour\Bin\Debug\ApplicationIcon.png
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\Ice Cream Parlour\Ice Cream Parlour\Bin\Debug\Background.png
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\Ice Cream Parlour\Ice Cream Parlour\Bin\Debug\Ice Cream Parlour.dll
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\Ice Cream Parlour\Ice Cream Parlour\Bin\Debug\Ice Cream Parlour.pdb
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\Ice Cream Parlour\Ice Cream Parlour\Bin\Debug\Ice Cream Parlour.xml
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\Ice Cream Parlour\Ice Cream Parlour\Bin\Debug\AppManifest.xaml
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\Ice Cream Parlour\Ice Cream Parlour\Bin\Debug\Ice_Cream_Parlour.xap
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\Ice Cream Parlour\Ice Cream Parlour\obj\Debug\App.g.i.vb
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\Ice Cream Parlour\Ice Cream Parlour\obj\Debug\MainPage.g.i.vb
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\Ice Cream Parlour\Ice Cream Parlour\obj\Debug\Ice Cream Parlour.g.resources
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\Ice Cream Parlour\Ice Cream Parlour\obj\Debug\Ice Cream Parlour.dll
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\Ice Cream Parlour\Ice Cream Parlour\obj\Debug\Ice Cream Parlour.xml
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\Ice Cream Parlour\Ice Cream Parlour\obj\Debug\Ice Cream Parlour.pdb
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\Ice Cream Parlour\Ice Cream Parlour\obj\Debug\XapCacheFile.xml
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\Ice Cream Parlour\Ice Cream Parlour\obj\Debug\OptionsPage.g.i.vb
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\Ice Cream Parlour\Ice Cream Parlour\obj\Debug\Ice Cream Page.g.i.vb
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\Ice Cream Parlour\Ice Cream Parlour\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\Ice Cream Parlour\Ice Cream Parlour\Bin\Debug\Microsoft.Phone.Controls.xml
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\Ice Cream Parlour\Ice Cream Parlour\obj\Debug\Basket.g.i.vb
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\Ice Cream Parlour\Ice Cream Parlour\obj\Debug\Order.g.i.vb
+C:\Users\Liam\Documents\Visual Studio 2012\Projects\Ice Cream Parlour\Ice Cream Parlour\obj\Debug\Summary.g.i.vb

@@ -1,0 +1,130 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="Ice_Cream_Parlour.Summary"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+    <phone:PhoneApplicationPage.Foreground>
+        <SolidColorBrush Color="{StaticResource PhoneBackgroundColor}"/>
+    </phone:PhoneApplicationPage.Foreground>
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" MinHeight="768"/>
+            <RowDefinition Height="0*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28"/>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Background="#FFFDC8DA">
+            <TextBlock HorizontalAlignment="Left" Height="53" Margin="10,192,0,0" TextWrapping="Wrap" Text="Summary Sales" VerticalAlignment="Top" Width="293" Foreground="#FF967642" FontSize="36"/>
+            <TextBlock HorizontalAlignment="Left" Height="38" Margin="10,250,0,0" TextWrapping="Wrap" Text="Total Day Sales:" VerticalAlignment="Top" Width="293" Foreground="#FF967642" FontSize="24"/>
+            <TextBlock HorizontalAlignment="Left" Height="38" Margin="10,374,0,0" TextWrapping="Wrap" Text="Number of Members:" VerticalAlignment="Top" Width="293" Foreground="#FF967642" FontSize="24"/>
+            <TextBlock HorizontalAlignment="Left" Height="38" Margin="10,288,0,0" TextWrapping="Wrap" Text="Average Price Per Sale:" VerticalAlignment="Top" Width="293" Foreground="#FF967642" FontSize="24"/>
+            <TextBlock HorizontalAlignment="Left" Height="38" Margin="10,331,0,0" TextWrapping="Wrap" Text="Number of Customers:" VerticalAlignment="Top" Width="293" Foreground="#FF967642" FontSize="24"/>
+            <TextBlock HorizontalAlignment="Left" Height="38" Margin="10,417,0,0" TextWrapping="Wrap" Text="Ice Creams Sold:" VerticalAlignment="Top" Width="293" Foreground="#FF967642" FontSize="24"/>
+            <TextBlock x:Name="VanillaQuant" HorizontalAlignment="Left" Height="69" Margin="98,479,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="55" FontSize="48" Foreground="#FF967642"/>
+            <TextBlock x:Name="LemonCheesecakeQuant" HorizontalAlignment="Left" Height="69" Margin="98,582,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="55" FontSize="48" Foreground="#FF967642"/>
+            <TextBlock x:Name="BeerQuant" HorizontalAlignment="Left" Height="69" Margin="98,677,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="55" FontSize="48" Foreground="#FF967642"/>
+            <TextBlock x:Name="ChocolateQuant" HorizontalAlignment="Left" Height="69" Margin="264,479,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="55" FontSize="48" Foreground="#FF967642"/>
+            <TextBlock x:Name="BananaQuant" HorizontalAlignment="Left" Height="69" Margin="264,583,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="55" FontSize="48" Foreground="#FF967642"/>
+            <TextBlock x:Name="CurryQuant" HorizontalAlignment="Left" Height="69" Margin="264,677,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="55" FontSize="48" Foreground="#FF967642"/>
+            <TextBlock x:Name="StrawberryQuant" HorizontalAlignment="Left" Height="69" Margin="417,479,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="55" FontSize="48" Foreground="#FF967642"/>
+            <TextBlock x:Name="MintQuant" HorizontalAlignment="Left" Height="69" Margin="417,583,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="55" FontSize="48" Foreground="#FF967642"/>
+            <TextBlock x:Name="EggQuant" HorizontalAlignment="Left" Height="69" Margin="417,681,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="55" FontSize="48" Foreground="#FF967642"/>
+            <TextBlock x:Name="lblTotalDaySales" HorizontalAlignment="Left" Height="38" Margin="415,250,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="47" Foreground="#FF967642" FontSize="24" TextAlignment="Right" Loaded="TextBlock_Loaded"/>
+            <TextBlock x:Name="lblAvgSalePrice" HorizontalAlignment="Left" Height="38" Margin="415,293,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="47" Foreground="#FF967642" FontSize="24" TextAlignment="Right"/>
+            <TextBlock x:Name="lblTotalCustomers" HorizontalAlignment="Left" Height="38" Margin="415,331,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="47" Foreground="#FF967642" FontSize="24" RenderTransformOrigin="0.327,0.403" TextAlignment="Right"/>
+            <TextBlock x:Name="lblTotalMembers" HorizontalAlignment="Left" Height="38" Margin="415,374,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="47" Foreground="#FF967642" FontSize="24" RenderTransformOrigin="0.327,0.403" TextAlignment="Right"/>
+            <Button x:Name="ExportBtn" Content="" HorizontalAlignment="Left" Margin="364,0,0,0" VerticalAlignment="Top" Height="120" Width="106" BorderBrush="{x:Null}" Foreground="{x:Null}">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="/Images/ExportStatement.PNG"/>
+                </Button.Background>
+            </Button>
+        </Grid>
+        <Image x:Name="IceCreamImg" HorizontalAlignment="Left" Height="160" Margin="201,17,0,0" VerticalAlignment="Top" Width="90" Source="/Images/1. Enter Screen/Ice Cream.png"/>
+        <Button x:Name="VanillaBtn" Content="" HorizontalAlignment="Left" Margin="25,467,0,0" VerticalAlignment="Top" Height="95" Width="67">
+            <Button.BorderBrush>
+                <SolidColorBrush Color="White" Opacity="0"/>
+            </Button.BorderBrush>
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="/Images/3. Ice Cream Page/1 Vanilla.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="ChocolateBtn" Content="" HorizontalAlignment="Left" Margin="182,467,0,0" VerticalAlignment="Top" Height="95" Width="67">
+            <Button.BorderBrush>
+                <SolidColorBrush Color="White" Opacity="0"/>
+            </Button.BorderBrush>
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="/Images/3. Ice Cream Page/2 Chocolate.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="StrawberryBtn" Content="" HorizontalAlignment="Left" Margin="340,467,0,0" VerticalAlignment="Top" Height="95" Width="67">
+            <Button.BorderBrush>
+                <SolidColorBrush Color="White" Opacity="0"/>
+            </Button.BorderBrush>
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="/Images/3. Ice Cream Page/3 Strawberry.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="LemonCheesecakeBtn" Content="" HorizontalAlignment="Left" Margin="25,567,0,0" VerticalAlignment="Top" Height="96" Width="67">
+            <Button.BorderBrush>
+                <SolidColorBrush Color="White" Opacity="0"/>
+            </Button.BorderBrush>
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="/Images/3. Ice Cream Page/4 Lemon Cheesecake.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="BananaBtn" Content="" HorizontalAlignment="Left" Margin="182,567,0,0" VerticalAlignment="Top" Height="96" Width="67">
+            <Button.BorderBrush>
+                <SolidColorBrush Color="White" Opacity="0"/>
+            </Button.BorderBrush>
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="/Images/3. Ice Cream Page/5 Banana.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="MintBtn" Content="" HorizontalAlignment="Left" Margin="340,567,0,0" VerticalAlignment="Top" Height="96" Width="67">
+            <Button.BorderBrush>
+                <SolidColorBrush Color="White" Opacity="0"/>
+            </Button.BorderBrush>
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="/Images/3. Ice Cream Page/6 Mint.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="BeerBtn" Content="" HorizontalAlignment="Left" Margin="25,663,0,0" VerticalAlignment="Top" Height="95" Width="67">
+            <Button.BorderBrush>
+                <SolidColorBrush Color="White" Opacity="0"/>
+            </Button.BorderBrush>
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="/Images/3. Ice Cream Page/7 Beer.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="CurryBtn" Content="" HorizontalAlignment="Left" Margin="182,663,0,0" VerticalAlignment="Top" Height="95" Width="67">
+            <Button.BorderBrush>
+                <SolidColorBrush Color="White" Opacity="0"/>
+            </Button.BorderBrush>
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="/Images/3. Ice Cream Page/8 Curry.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="EggBtn" Content="" HorizontalAlignment="Left" Margin="340,663,0,0" VerticalAlignment="Top" Height="95" Width="67">
+            <Button.BorderBrush>
+                <SolidColorBrush Color="White" Opacity="0"/>
+            </Button.BorderBrush>
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="/Images/3. Ice Cream Page/9 Egg.png"/>
+            </Button.Background>
+        </Button>
+    </Grid>
+
+</phone:PhoneApplicationPage>

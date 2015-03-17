@@ -1,0 +1,48 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+IceCreamParlour
+</name>
+</assembly>
+<members>
+<member name="M:Ice_Cream_Parlour.Summary.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:Ice_Cream_Parlour.Order.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:Ice_Cream_Parlour.Quantity.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:Ice_Cream_Parlour.OptionsPage.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:Ice_Cream_Parlour.MainPage.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:Ice_Cream_Parlour.Basket.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:Ice_Cream_Parlour.App.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="P:Ice_Cream_Parlour.App.RootFrame">
+	<summary>
+ Provides easy access to the root frame of the Phone Application.
+ </summary>
+	<returns>The root frame of the Phone Application.</returns>
+</member><member name="M:Ice_Cream_Parlour.App.#ctor">
+	<summary>
+ Constructor for the Application object.
+ </summary>
+</member>
+</members>
+</doc>
